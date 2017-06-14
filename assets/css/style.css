@@ -1,0 +1,45 @@
+/*estilos seccion  HOME*/
+#home{
+	background-image: url(../img/bg-header.jpg);
+	background-size: cover;
+	background-repeat: none;
+	height: 660px;
+}
+
+.menu{
+	padding-top: 10px;
+}
+
+.menu-transp{
+	background: none;
+	border:none;
+}
+
+#home a{
+	color: white;
+}
+
+#home a:hover{
+	color: silver;
+}
+
+.imagen-profile{
+	padding: 110px 60px 80px 60px;
+}
+
+.imagen-profile img{
+	width:270px;
+}
+
+.flecha{
+	margin-top: 26%;
+	color: white;
+}
+
+.flecha i{
+	width:40px;
+	height: 40px;
+	border:solid 2px white;
+	border-radius: 100%;
+	padding: 5px;
+}

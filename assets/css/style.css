@@ -1,3 +1,7 @@
+body{
+
+}
+
 /*estilos seccion  HOME*/
 
 #home{
@@ -46,20 +50,21 @@
 
 /*estilos VALUES*/
 #values{
-	margin:90px auto;
+	margin:80px auto;
 }
 
 hr{
 	width:150px;
 	height:2px;
-	background-color: white;
+	background-color: transparent;
 	border:none;
 	border-top: solid 1px tan;
 	border-bottom: solid 1px tan;
 }
 
 .texto-values h2{
-	font-weight: bolder;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 900;
 	font-size: 45px;
 }
 
@@ -74,13 +79,14 @@ hr{
 }
 
 .titulo-val{
-	font-weight: bolder;
-	font-size: 28px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 900;
+	font-size: 25px;
 	padding-left:22px;
 }
 
 .icon-value li{
-	padding-top:10px;
+	padding-top:5px;
 	padding-left: 5px;
 	font-style: italic; 
 }
@@ -95,14 +101,36 @@ hr{
 .texto-pastel{
 	margin: 20% 0;
 	font-size: 40px;
+	font-weight: 200;
 	color:white;
 	line-height: 40px;
 }
 
+#pastel hr{
+	padding-bottom: 0;
+	margin-bottom: 12px;
+}
+
 .boton-pastel{
-	margin: 20px 0;
-	font-size: 20px;
 	color: white;
-	font-weight: bolder;
 	background-color: transparent;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 900;
+	font-size: 16px;
+	border-radius: 0;
+	padding: 10px 20px;
+}
+
+/*estilos PEOPLE*/
+#people{
+	padding-top:90px;
+	padding-bottom:90px;
+	background-color: whitesmoke;
+}
+
+#people h3{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 900;
+	font-size: 16px;
+	color: white;
 }

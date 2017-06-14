@@ -1,4 +1,5 @@
 /*estilos seccion  HOME*/
+
 #home{
 	background-image: url(../img/bg-header.jpg);
 	background-size: cover;
@@ -42,4 +43,45 @@
 	border:solid 2px white;
 	border-radius: 100%;
 	padding: 5px;
+}
+
+/*estilos VALUES*/
+#values{
+	margin:90px auto;
+}
+
+hr{
+	width:150px;
+	height:2px;
+	background-color: white;
+	border:none;
+	border-top: solid 1px tan;
+	border-bottom: solid 1px tan;
+}
+
+.texto-values h2{
+	font-weight: bolder;
+	font-size: 45px;
+}
+
+.icon-value i{
+	width:75px;
+	height: 75px;
+	color: black;
+	border:solid 2px black;
+	border-radius: 100%;
+	margin-top: 20px;
+	padding: 22px;
+}
+
+.titulo-val{
+	font-weight: bolder;
+	font-size: 28px;
+	padding-left:22px;
+}
+
+.icon-value li{
+	padding-top:10px;
+	padding-left: 5px;
+	font-style: italic; 
 }

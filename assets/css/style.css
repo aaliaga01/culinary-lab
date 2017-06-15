@@ -310,9 +310,58 @@ hr{
 }
 
 #menu p{
-	padding-bottom: 20px;
+	margin:0;
+	padding-bottom: 10px;
 }
 
 #menu img{
 	width: 100%;
+}
+
+/*estilos FOOTEr*/
+
+footer{
+	color: white;
+}
+
+.comprar{
+	padding: 50px 0;
+	background-color: black;
+	color: white;
+	font-size: 22px;
+}
+
+.contacto{
+	padding-top: 100px;
+}
+.contacto p{
+	font-size: 16px;
+}
+
+.contacto i{
+	padding-right: 5px;
+}
+
+.derechos{
+	padding: 50px;
+}
+
+.derechos p{
+	font-size:15px;
+
+}
+
+.iconos{
+	padding: 50px 0px 70px 0px;
+	font-size: 25px;
+}
+
+.iconos i{
+	padding: 10px;
+}
+
+.fondo{
+	background-image: url(../img/bg-footer.jpg);
+	background-size: cover;
+	background-repeat: none;
 }

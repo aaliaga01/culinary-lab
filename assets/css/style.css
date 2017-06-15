@@ -324,6 +324,10 @@ footer{
 	color: white;
 }
 
+footer h3{
+	font-weight: bold;
+}
+
 .comprar{
 	padding: 50px 0;
 	background-color: black;

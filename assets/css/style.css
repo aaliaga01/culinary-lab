@@ -131,6 +131,168 @@ hr{
 #people h3{
 	font-family: 'Raleway', sans-serif;
 	font-weight: 900;
+	font-size: 30px;
+	padding-top: 115px;
+}
+
+#people .foto1{
+	background-image: url(../img/1.jpg);
+	background-size: cover;
+	color: white;
+	width: 350px;
+	height: 350px;
+}
+
+#people .foto2{
+	background-image: url(../img/2.jpg);
+	background-size: cover;
+	color: white;
+	width: 350px;
+	height: 350px;
+	background-color: black;
+}
+
+#people .foto3{
+	background-image: url(../img/3.jpg);
+	background-size: cover;
+	color: white;
+	width: 350px;
+	height: 350px;
+	background-color: black;
+}
+
+#people .separador-people{
+	width: 50px;
+	margin-top: 0;
+	margin-bottom: 6px;
+}
+
+.cursiva{
+	font-style: italic;
 	font-size: 16px;
+}
+
+#people i{
+	padding: 5px 8px;
+}
+
+/*estilos PRESS*/
+#press{
+	padding: 90px 0;
+	background-color: white;
+}
+
+.parrafos-tamano{ 
+	width: 75%;
+	margin:0 auto;
+}
+
+.circulo{ /*foto testimonial*/
+	width:60px;
+	margin-top: 30px;
+	border:solid thin white;
+	border-radius:100%;
+	margin-left: 20px;
+	margin-top: 25px;
+	margin-right: 0;
+}
+
+.nombre-testim h3{
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.prof-testim{
+	margin-bottom: 5px;
+}
+
+#press i{
+	color: gold;
+}
+
+.carousel-indicators li{
+	background-color: silver;
+	border-color:silver;
+}
+
+.mover-puntos{
+	margin-bottom: -60px;
+}
+
+/*estilos NEWSLETTER*/
+#newsletter{
+	background-color: black;
+	padding-top:90px;
+	padding-bottom:90px;
+}
+
+#newsletter h2{
+	color: white;
+	font-weight: bold;
+	font-family: 'Raleway', sans-serif;
+}
+
+.barra-suscribe{
+	width: 70%;
+	margin:0 auto;
+	color: white;
+	border-color: black;
+}
+
+#newsletter .input-group-addon{
+	font-size: 16px;
+	font-weight: bold;
+	color:white;
+	border-top:solid 2px tan;
+	border-bottom:solid 2px tan;
+}
+
+.input-group-lg>.form-control, .input-group-lg>.input-group-addon, .input-group-lg>.input-group-btn>.btn{
+	border-radius: 0;
+}
+
+.color-suscribe{
+	background-color: tan;
+}
+
+/*estilos HOURS*/
+
+#hours{
+	background-image: url(../img/bg-pricing.jpg);
+	background-size: cover;
+	height: 680px;
+	padding-top:90px;
+	padding-bottom:90px;
+}
+
+#hours h2, #hours p{
 	color: white;
 }
+
+#horarios{
+	background-color: white;
+	margin-top: 20px;
+	padding: 30px;
+}
+
+#horarios h2{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 900;
+	color: black;
+}
+
+#horarios hr{
+	width: 100px;
+}
+
+table{
+	height: 200px;
+	vertical-align: text-bottom;
+}
+
+.tabla-hrs{
+	font-style: italic;
+}
+

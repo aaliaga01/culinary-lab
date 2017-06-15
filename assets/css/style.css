@@ -262,19 +262,20 @@ hr{
 #hours{
 	background-image: url(../img/bg-pricing.jpg);
 	background-size: cover;
-	height: 680px;
 	padding-top:90px;
-	padding-bottom:90px;
+	padding-bottom: 90px;
 }
 
 #hours h2, #hours p{
 	color: white;
 }
 
-#horarios{
+.book{
 	background-color: white;
 	margin-top: 20px;
 	padding: 30px;
+	margin: 10px;
+
 }
 
 #horarios h2{
@@ -287,12 +288,31 @@ hr{
 	width: 100px;
 }
 
-table{
-	height: 200px;
-	vertical-align: text-bottom;
+.table>tbody>tr>td{
+	padding:13px;
 }
 
 .tabla-hrs{
 	font-style: italic;
 }
 
+.boton-horarios{
+	border: solid 1px black;
+	border-radius: 0;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+/*estilo MENU*/
+#menu{
+	padding-top:90px;
+	padding-bottom: 90px;
+}
+
+#menu p{
+	padding-bottom: 20px;
+}
+
+#menu img{
+	width: 100%;
+}
